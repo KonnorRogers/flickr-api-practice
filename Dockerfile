@@ -1,9 +1,17 @@
-FROM ruby:2.6.2
-RUN apt-get update -qq && apt-get install -y nodejs postgresql-client vim
+FROM ruby:2.6.2-alpine
+RUN apk update && apk upgrade 
+RUN apk add --no-cache nodejs \
+                       bash \
+                       postgresql-dev \
+                       postgresql-libs \
+                       postgresql-client \
+                       neovim \
+                       build-base
 RUN mkdir /myapp
 WORKDIR /myapp
 COPY Gemfile /myapp/Gemfile
 COPY Gemfile.lock /myapp/Gemfile.lock
+# RUN bundle config build.nokogiri --use-system-libraries
 RUN bundle install
 COPY . /myapp
 
