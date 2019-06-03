@@ -28,6 +28,9 @@ sudo chown -R $USER:$USER .
 docker-compose up
 docker-compose exec web rails db:create
 docker-compose exec web rails db:migrate
+
+# Add an API here
+docker-compose run --rm -it -e EDITOR="vim --wait" bin/rails credentials:edit
 ```
 
 Your server is now available @ localhost:3000
