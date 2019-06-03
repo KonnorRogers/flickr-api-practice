@@ -1,24 +1,43 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Purpose
 
-Things you may want to cover:
+Part of [TheOdinProject - Working with external APIs](https://www.theodinproject.com/courses/ruby-on-rails/lessons/apis) 
+and learning to deal with external APIs.
+Documentation obtained from [Flickr API documentation](https://www.flickr.com/services/api/).
 
-* Ruby version
+## Getting started
 
-* System dependencies
+### Prereqs
+* Ruby 2.6.2
+* Rails 5.2.3
+* Postgresql
 
-* Configuration
+#### Optional
+* Docker
+* Docker-compose
 
-* Database creation
+### Running locally
 
-* Database initialization
+```bash
+docker-compose build
 
-* How to run the test suite
+# If on linux, some permission issues may arise, run:
+sudo chown -R $USER:$USER .
 
-* Services (job queues, cache servers, search engines, etc.)
+docker-compose up
+docker-compose exec web rails db:create
+docker-compose exec web rails db:migrate
+```
 
-* Deployment instructions
+Your server is now available @ localhost:3000
 
-* ...
+### Running the test suite
+```bash
+docker-compose build # if not previously built
+docker-compose run --rm web rails test
+
+# Optionally, to run using an existing container
+docker-compose
+docker-compose exec web rails test
+```
