@@ -17,6 +17,7 @@ gem 'turbolinks', '~> 5'
 gem 'uglifier', '>= 1.3.0'
 
 group :development, :test do
+  gem 'dotenv'
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
 end
 
