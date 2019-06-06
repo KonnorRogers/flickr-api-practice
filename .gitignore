@@ -28,4 +28,4 @@
 
 # Ignore the .env files to keep them out of git
 # https://github.com/bkeepers/dotenv#what-other-env-files-can-i-use
-.env.*.local
+.env*
