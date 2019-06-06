@@ -2,9 +2,9 @@
 
 ## Purpose
 
-Part of [TheOdinProject - Working with external APIs](https://www.theodinproject.com/courses/ruby-on-rails/lessons/apis) 
-and learning to deal with external APIs.
-Documentation obtained from [Flickr API documentation](https://www.flickr.com/services/api/).
+Part of [TheOdinProject - Working with external APIs](https://www.theodinproject.com/courses/ruby-on-rails/lessons/apis) <br>
+and learning to deal with external APIs.<br>
+Documentation obtained from [Flickr API documentation](https://www.flickr.com/services/api/).<br>
 
 ## What it looks like
 
@@ -24,14 +24,14 @@ Documentation obtained from [Flickr API documentation](https://www.flickr.com/se
 
 ### Add your flickr api key
 
-Obtain your flickr api key here [Link to flickr api](https://www.flickr.com/services/api/)
+Obtain your flickr api key here [Link to flickr api](https://www.flickr.com/services/api/)<br>
 
-Then, create a file called ".env" in your projects root directory 
-(Dont worry, its already .gitignored)
-add your keys in the following format:
+Then, create a file called ".env" in your projects root directory <br>
+(Dont worry, its already .gitignored)<br>
+add your keys in the following format:<br>
 
-FLICKRAW_API_KEY=1e812e81
-FLICKRAW_SHARED_SECRET=123438
+FLICKRAW_API_KEY=1e812e81<br>
+FLICKRAW_SHARED_SECRET=123438<br>
 
 ```bash
 git clone https://github.com/ParamagicDev/flickr-api-practice
@@ -52,5 +52,5 @@ docker-compose up
 sudo chown -R $USER:$USER .
 ```
 
-Your server is now available @ localhost:3000
+Your server is now available @ localhost:3000<br>
 Enter in your user id or another persons and their photostream will pop up
