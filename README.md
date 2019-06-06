@@ -8,7 +8,7 @@ Documentation obtained from [Flickr API documentation](https://www.flickr.com/se
 
 ## What it looks like
 
-![Gif of the website in use](<iframe src='https://gfycat.com/ifr/AngryHeavenlyAmberpenshell' frameborder='0' scrolling='no' allowfullscreen width='640' height='404'></iframe><p> <a href="https://gfycat.com/angryheavenlyamberpenshell">via Gfycat</a></p>)
+![Gif of the website in use](https://gfycat.com/ifr/AngryHeavenlyAmberpenshell)
 
 ## Getting started
 
