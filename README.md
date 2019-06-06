@@ -8,7 +8,7 @@ Documentation obtained from [Flickr API documentation](https://www.flickr.com/se
 
 ## What it looks like
 
-![Gif of the website in use](https://gfycat.com/AngryHeavenlyAmberpenshell)
+![Gif of the website in use](https://thumbs.gfycat.com/AngryHeavenlyAmberpenshell-small.gif)
 
 ## Getting started
 
